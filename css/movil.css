@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+/*
+********************Proyecto AIKIDO*****************************************************************
+*/
+
+body{
+    background-image: url("images/fondo/bambu.jpeg");
+    background-repeat: no-repeat;
+    font : 120% sans-serif;
+    
+}
+input,form{
+     font : 100% sans-serif;
+    
+}
+
+/*Presentacion*/
+
+#bienvenido{
+    position:absolute;
+    left: 25%;
+    top : 0px;
+}
+
+/*Barra menus*/
+
+#menu{
+   position:absolute;
+   top: 20%;
+   left: 25%;
+}
+#cliente{
+    float:right;
+}
+
+/*Footer*/
+
+#footer{
+    position:absolute;      
+    right: 50%;        
+    padding-top: 100%;
+}
+
+
+/*Formulario*/
+article.f{
+    position:absolute;
+    left: 25%;
+    top: 10px;
+}
+form.f  ,form.f  select {
+    position:absolute;
+    left: 30%;
+    top: 10px;
+}
+form.f   input {
+    position:absolute;
+    left:  300%;
+}
+#f_respuesta{
+    position:absolute;
+    right: 10px;
+}
+#f_foto{
+    height: 100px;
+    width: 95px;
+}
+#usuario_data_source{
+    position:absolute;
+    top: 60px;
+    right: 10px;
+}
+
+.logueate, #mpa, #mpc {
+    position: absolute;
+    top:3%;
+    height: 8%;
+    width: 10%;
+    text-align:center;
+    left: 35%;
+}
+
+.contrasenia{
+    top:0%;
+    position: absolute;
+    left: 120px;
+    float: -webkit-calc(right); 
+    float: -moz-calc(right); 
+    display: inline-block;
+    float: left;
+}
+#entrar{
+    top: 0%;
+    position: absolute;
+    left: 238px;
+}
+.registrate{
+    position: absolute;
+    top: 100%;
+    left: 85%;
+}
+#salir{
+    background-color: coral;
+}
+
+select.t {
+    position:absolute;
+    left: 493px;
+}
+.usuario,.contrasenia{
+    width: 100px;
+    
+}
+/*LISTADO*/
+#encabezado {
+    position: absolute;
+    top:0%;
+    left: 30%;    
+}
+
+#listado{
+    position:relative;
+    left: 25%;
+}
+
+/*Iframe*/
+
+#canarias_aikido{
+    position:absolute;
+    top:140px;
+    height: -webkit-calc(185%);
+    height: -moz-calc(212%);  
+    width: 70%;
+    left: 20%;
+}
+#enLinea{
+    position:fixed;
+    top:60%;
+    width: 140px;
+    left: 0px;
+}
+.programa {
+    position:absolute;
+    top:140px;
+    height: -webkit-calc(185%);
+    height: -moz-calc(212%);  
+    width: 70%;
+    left: 20%;
+}
+.index{
+    position :absolute;
+    height: 300%;
+    width: 100%;
+}
+/*IMAGENES*/
+
+
+#atras{
+    position:absolute;
+    background-color: transparent;
+    padding-top: 15%;
+    background-size: 100% 100%;
+    width: 5%;
+    height: 5%;
+    left: 0px;
+}
+img.admin{
+    padding-top: 5%;
+}
+.logo{
+    position:absolute;
+    left: 0px;
+    width: 15%;
+}		

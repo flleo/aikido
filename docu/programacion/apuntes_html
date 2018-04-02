@@ -1,0 +1,11 @@
+Intruducir pdf:
+<embed id="armas" src="docu/armas/las_armas_en_aikido.pdf"></embed>  (no sirve en hostinger)
+
+Html que haya algo escrito en el input:
+placeholder="+34668899999"
+
+Textarea: (valor por defecto php)
+
+  echo'      <textarea name="Curso" rows="4"  required>'.$curso->getCurso().'</textarea>';
+
+

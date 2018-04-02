@@ -1,0 +1,11 @@
+Intruducir pdf:
+<embed id="armas" src="docu/armas/las_armas_en_aikido.pdf"></embed>
+
+Posicionarse en una pagina web:
+ echo '<script>location.replace("./index.php");</script>';
+
+Limpiar pantalla:
+<script>document.body.innerHTML=""</script>
+
+Html que haya algo escrito en el input:
+placeholder="+34668899999"

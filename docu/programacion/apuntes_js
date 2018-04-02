@@ -1,0 +1,6 @@
+Posicionarse en una pagina web:
+ echo '<script>location.replace("./index.php");</script>';
+
+Limpiar pantalla:
+<script>document.body.innerHTML=""</script>
+

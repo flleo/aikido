@@ -1,0 +1,6 @@
+Modificar una tabla, aunque tenga referencias de constraints de otras tablas:
+
+1. Exportamos la tabla, creando una plantilla de ella
+2. La borramos
+3. Hacemos las modificaciones necesarias de las variables primarias
+4. Importamos la tabla de nuevo

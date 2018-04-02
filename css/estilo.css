@@ -1,0 +1,205 @@
+@CHARSET "UTF-8";
+/*
+********************Proyecto AIKIDO*****************************************************************
+*/
+
+body{
+    font : 120% sans-serif;
+    background-color: burlywood;
+}
+input,form{
+     font : 100% sans-serif;
+    
+}
+
+/*Presentacion*/
+
+#bienvenido{
+    position:absolute;
+    left: 25%;
+    top : 0px;
+}
+
+/*BARRAS DE MENUS */
+
+#menu, #cursos{
+   position:absolute;
+   top: 20%;
+   left: 25%;
+}
+#cliente{
+    float:right;
+}
+
+/* TABLAS  */
+
+#table_cursos, #tr, #tdCurso,#td{
+    border: #000 solid thin ;
+    padding: 10px ;
+    background-color: #d9edf7;
+   
+}
+#tr input{
+    padding: 5px ;
+    width: 130px;
+}
+
+/*Footer*/
+
+#footer{
+    position:fixed;      
+    top: 90%;
+    left: 10px;
+}
+
+
+/*Formulario*/
+.f{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#f,#f  select{
+    position:absolute;
+    left: 25%;
+    top: 10px;
+}
+#f input {
+    position:absolute;
+    left:  100%;
+}
+#f #input_foto{
+    position:absolute;
+    display: block;
+}
+#f_mala_respuesta{
+    position:absolute;
+    color: red;
+    top: 0px;
+    right: 10px;
+}
+#f_buena_respuesta{
+    position:absolute;
+    color: greenyellow;
+    top: 0px;
+    right: 10px;
+}
+#f_respuesta{
+    position:absolute;
+    top: 10px;
+    right:  10px;
+}
+#f_foto{
+    height: 100px;
+    width: 95px;
+}
+#usuario_data_source{
+    position:absolute;
+    top: 60px;
+    right: 10px;
+}
+
+.logueate, #mpa, #mpc {
+    position: absolute;
+    top:3%;
+    height: 8%;
+    
+    text-align:center;
+    left: 35%;
+}
+
+.contrasenia{
+    top:0%;
+    position: absolute;
+    left: 114px; 
+    display: inline-block;
+    float: left;
+}
+#entrar{
+    top: 0%;
+    position: absolute;
+    left: 230px;
+}
+.registrate{
+    position: absolute;
+    top: 0%;
+    left: 296px;
+}
+#salir{
+    background-color: coral;
+}
+
+select.t {
+    position:absolute;
+    left: 493px;
+}
+.usuario,.contrasenia{
+    width: 100px;
+    
+}
+
+/*LISTADO*/
+
+#encabezado {
+    position: absolute;
+    top:0%;
+    left: 30%; 
+    margin-bottom:  10%;
+}
+
+#listado{
+    position:relative;
+    left: 25%;
+}
+
+/*IFRAME*/
+
+#canarias_aikido{
+    position:absolute;
+    top:100px;
+    height: -webkit-calc(85%);
+    height: -moz-calc(80%);  
+    width: 75%;
+    left: 20%;
+}
+#enLinea{
+    position:fixed;
+    top:60%;
+    width: 140px;
+    left: 0px;
+}
+.programa {
+    position:absolute;
+    top:140px;
+    height: -webkit-calc(185%);
+    height: -moz-calc(212%);  
+    width: 70%;
+    left: 20%;
+}
+.index{
+    position :absolute;
+    height: 300%;
+    width: 100%;
+}
+/*IMAGENES*/
+
+#atras{
+    position: absolute;
+    padding-top: 10px;
+    top: 36%;
+    left:10px;
+    width: 5%; height:5%;
+    background-image: url("../images/flecha_atras_1.gif") ;  
+    background-size: 100% 100%;
+    /*top:  -webkit-calc(100%);*/   
+}
+
+img.admin{
+    padding-top: 5%;
+}
+.logo{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    width: 15%;
+}		
