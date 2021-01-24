@@ -113,7 +113,7 @@ input,form{
     position: absolute;
     left: 114px; 
     display: inline-block;
-    float: left;
+    /*float: left;*/
 }
 #entrar{
     top: 0%;
@@ -157,8 +157,7 @@ select.t {
 #canarias_aikido{
     position:absolute;
     top:100px;
-    height: -webkit-calc(85%);
-    height: -moz-calc(80%);  
+    height: 80%;  
     width: 75%;
     left: 20%;
 }
