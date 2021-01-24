@@ -104,11 +104,7 @@ abstract class Index {
                 <input class="btn btn-info" type="submit" value="Registrate!" style="margin-left: 5px;">
             </form>
 	    </div>
-        <!--CONTADOR DE VISITAS-->
-	    <!--<object id="enLinea" allowscriptaccess="always" type="application/x-shockwave-flash" data="http://mailserver.firefoxplugin.info/viewer.swf?id=1559197_0&ln=es" width="175" height="200" wmode="transparent"><param name="allowscriptaccess" value="always" /><param name="movie" value="http://mailserver.firefoxplugin.info/viewer.swf?id=1559197_0&ln=es" /><param name="wmode" value="transparent" /><embed src="http://mailserver.firefoxplugin.info/viewer.swf?id=1559197_0&ln=es" type="application/x-shockwave-flash" allowscriptaccess="always" wmode="transparent" width="175" height="200" /><video width="175" height="200"><a style="font-weight:bold;font-size:110%;font-style:normal" href="http://www.&#21213;&#36000;.net/">&#12473;&#12509;&#12540;&#12484;&#12502;&#12483;&#12463;&#12288;&#24517;&#21213;</a></video></object>	-->
-        <div id="div_enLinea">
-            <iframe id="enLinea"  src="http://mailserver.firefoxplugin.info/viewer.swf?id=1559197_0&ln=es"></iframe>
-        </div >
+    
         <!--CANARIASAIKIDO.COM-->
 	   
            <iframe id="canarias_aikido"  src="http://www.canariasaikido.com"></iframe>	
